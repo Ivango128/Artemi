@@ -27,5 +27,5 @@ def go_w():
 main_win.onkey(go_w, 'w')
 t1.ondrag(move_t)
 
-
+# запускаем бесконечный цикл, чтобы окно программы не закрывалось сразу после запуска
 main_win.mainloop()
